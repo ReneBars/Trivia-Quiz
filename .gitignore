@@ -42,7 +42,3 @@ next-env.d.ts
 
 node_modules/
 .env
-
-lib/generated/prisma/libquery_engine-darwin-arm64.dylib.node
-lib/generated/prisma/libquery_engine-rhel-openssl-3.0.x.so.node
-lib/generated/prisma/query_engine-windows.dll.node
