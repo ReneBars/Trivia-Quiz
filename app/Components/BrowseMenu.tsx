@@ -16,7 +16,10 @@ const BrowseMenu = ({ setMenuOption, setGameData }: BrowseMenuProps) => {
   const TopicItemCard = ({ data }: { data: DataType }) => (
     <div className="bg-base-200 h-[450px] w-[300px] p-5 rounded-box">
       <div className="flex flex-col bg-base-300 rounded-box h-full">
-        <img className="w-[260px] h-[130px] bg-base object-cover" src={data.image} />
+        <img className="w-[260px] h-[130px] bg-base object-cover" 
+		src={data.image ?? ""} 
+		alt="Quiz cover image"
+		/>
         <div className="flex flex-col justify-between h-full p-5">
           <div>
             <p className="text-base-content text-center text-sm">Quiz About:</p>
