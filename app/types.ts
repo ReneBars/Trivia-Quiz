@@ -32,7 +32,7 @@ export type DataType = {
   userName: string;
   topic: string;
   difficulty: string;
-  image: string; 
+  image: string | null;
   GameScores: GameScores[];
   questions: QuestionData[];
   
